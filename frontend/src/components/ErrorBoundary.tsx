@@ -57,7 +57,7 @@ export default function ErrorFallback({ error }: { error: unknown }) {
                 </Card.Body>
 
                 <Card.Footer className="bg-light border-0 rounded-bottom-4">
-                    <a href="/" className="btn btn-outline-primary rounded-3">
+                    <a href={import.meta.env.BASE_URL} className="btn btn-outline-primary rounded-3">
                         Zurück zur Startseite
                     </a>
                 </Card.Footer>

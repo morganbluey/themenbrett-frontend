@@ -18,7 +18,7 @@ function Header({ onLoginClick }: HeaderProps) {
   return (
     <Navbar expand="lg" className="bg-light" collapseOnSelect>
       <Container>
-        <Navbar.Brand href="/">Themenbrett</Navbar.Brand>
+        <Navbar.Brand href={import.meta.env.BASE_URL}>Themenbrett</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav variant="pills" className="ms-auto">
